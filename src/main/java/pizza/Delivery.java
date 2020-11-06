@@ -17,7 +17,7 @@ public class Delivery {
     @PrePersist
     public void onPrePersist(){
         try {
-            Thread.currentThread().sleep((long) (400 + Math.random() * 220));
+            Thread.currentThread().sleep((long) (400 + Math.random() * 350));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
